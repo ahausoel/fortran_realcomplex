@@ -41,4 +41,7 @@ program test
 
     mybath = generate_bath(ch)
 
+    ! now the real functions use mybath%dbath%x 
+    ! and the complex ones mybath%zbath%x
+
 end program
